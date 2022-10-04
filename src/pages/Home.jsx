@@ -14,8 +14,8 @@ function Home() {
       <Navbar />
       <div className="home">
         <p>
-          My name is Katerina and I'm an 33 years old frontend- & appdeveloping
-          student, gratuating in the summer of 2023 from <a href="https://cmeducations.se/">Changemaker Educations</a>.
+          My name is Katerina and I'm a 33 year old frontend- & app developing
+          student, graduating in the summer of 2023 from <a href="https://cmeducations.se/">Changemaker Educations</a>.
         </p>
         <img className="portrait" src={photo} alt="portrait" />
       </div>

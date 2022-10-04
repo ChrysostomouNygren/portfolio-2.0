@@ -24,8 +24,8 @@ function About() {
         <h2>About me:</h2>
         <p>
           Katerina Chrysostomou Nygren <br />
-          Borned in 1988. <br />I speak swedish, english, german and sarcasm.
-          Enjoys cats, nature, plants, vegan food and music.
+          Born in 1988. <br />
+          I enjoy cats, nature, plants, music and vegan food.
         </p>
         <h4>Skills:</h4>
         <Skills url={html} alt="html logo" title="Html" />
