@@ -1,20 +1,23 @@
 import React from "react";
 import "../styles/header.css";
+import { useNavigate } from "react-router-dom";
 
 // fonten för logo:
 // https://www.fontspace.com/aquire-font-f43735
 
 function Header() {
+
+  let navigate = useNavigate();
+  const home = () => {
+    navigate(`/`);
+  };
+  
   return (
-    <header>
-      {/* <img
-        src="https://see.fontimg.com/api/renderfont4/BW0ox/eyJyIjoiZnMiLCJoIjo5OCwidyI6MTUwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/S0NO/aquire.png"
-        alt="KCN"
-      /> */}
-        <img
-          src="https://see.fontimg.com/api/renderfont4/BW0ox/eyJyIjoiZnMiLCJoIjozOSwidyI6MTUwMCwiZnMiOjI2LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/S2F0ZXJpbmEg/aquire.png"
-          alt="Katerina"
-        />
+    <header onClick={home}>
+      <img
+        src="https://see.fontimg.com/api/renderfont4/BW0ox/eyJyIjoiZnMiLCJoIjozOSwidyI6MTUwMCwiZnMiOjI2LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/S2F0ZXJpbmEg/aquire.png"
+        alt="Katerina"
+      />
       <div>
         <img
           src="https://see.fontimg.com/api/renderfont4/YzE0o/eyJyIjoiZnMiLCJoIjoxOCwidyI6MTUwMCwiZnMiOjEyLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q2hyeXNvc3RvbW91IA/aquire-light.png"
