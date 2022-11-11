@@ -59,7 +59,7 @@ function Projects() {
         <Project
           url="https://feaflix.netlify.app/home"
           name="FEAflix"
-          description="This is a group project that me and 3 of my classmates did together in a week. Styling is done with SASS. It's our own little version of IMDB and we used "
+          description="This is a group project that me and 3 of my classmates did together in a week. Styling is done with SASS and the app is made for mobile first. It's our own little version of IMDB and we used "
           extraUrl="https://www.themoviedb.org/"
           link="TMDB-API"
         />
