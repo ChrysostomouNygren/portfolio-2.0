@@ -34,6 +34,8 @@ function About() {
         <Skills url={reactbw} alt="react logo" title="React.js" />
         <Skills url={git} alt="git log" title="Git" />
         <Skills url={ps} alt="adobe photoshop logo" title="Adobe photoshop" />
+        {/* SASS */}
+        {/* TS */}
 
         <p>
           Professional googler, fast learner and collector of memes.
