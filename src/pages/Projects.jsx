@@ -55,6 +55,20 @@ function Projects() {
           description="A chat made with Socket.io. Backend was written in SQLite, but later converted to Postgres so it could be deployed to Heroku. Only online until november 28th."
         />
         {/* luffarschack */}
+        {/* FEA-flix */}
+        <Project
+          url="https://feaflix.netlify.app/home"
+          name="FEAflix"
+          description="This is a group project that me and 3 of my classmates did together in a week. Styling is done with SASS. It's our own little version of IMDB and we used "
+          extraUrl="https://www.themoviedb.org/"
+          link="TMDB-API"
+        />
+        {/* ts todo */}
+        <Project
+        url='https://typescript-todo-lolol.netlify.app/'
+        name='Typescript todo'
+        description="Yet another todo-list, this time I've implemented typescript and SASS."
+        />
       </main>
       <Footer />
     </div>
