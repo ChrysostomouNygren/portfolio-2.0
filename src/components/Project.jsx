@@ -4,12 +4,12 @@ function Project(props) {
   return (
     <div>
       <h4>
-        <a href={props.url}>{props.name}</a>
+        <a href={props.url} target="_blank">{props.name}</a>
         {props.extra}
       </h4>
       <p>
         {props.description}
-        <a href={props.extraUrl}>{props.link}</a>
+        <a href={props.extraUrl} target="_blank">{props.link}</a>
       </p>
     </div>
   );
