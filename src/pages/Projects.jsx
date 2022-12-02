@@ -49,11 +49,11 @@ function Projects() {
           description="A simple mockup webshop, cat themed of course."
         />
         {/* socket.io chat */}
-        <Project
+        {/* <Project
           url="https://chattiluring-front.herokuapp.com/"
           name="Realtime Chat"
           description="A chat made with Socket.io. Backend was written in SQLite, but later converted to Postgres so it could be deployed to Heroku. Only online until november 28th."
-        />
+        /> */}
         {/* luffarschack */}
         {/* FEA-flix */}
         <Project

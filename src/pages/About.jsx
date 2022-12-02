@@ -8,6 +8,8 @@ import git from "../assets/git.png";
 import html from "../assets/html.png";
 import js from "../assets/java-script.png";
 import reactbw from "../assets/reactBW.png";
+import sass from "../assets/SASS.png";
+import ts from "../assets/ts.png";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -24,8 +26,8 @@ function About() {
         <h2>About me:</h2>
         <p>
           Katerina Chrysostomou Nygren <br />
-          Born in 1988. <br />
-          I enjoy cats, nature, plants, music and vegan food.
+          Born in 1988. <br />I enjoy cats, nature, plants, music and vegan
+          food.
         </p>
         <h4>Skills:</h4>
         <Skills url={html} alt="html logo" title="Html" />
@@ -35,7 +37,9 @@ function About() {
         <Skills url={git} alt="git log" title="Git" />
         <Skills url={ps} alt="adobe photoshop logo" title="Adobe photoshop" />
         {/* SASS */}
+        <Skills url={sass} alt="SASS" title="SASS" />
         {/* TS */}
+        <Skills url={ts} alt="typescript" title="Typescript" />
 
         <p>
           Professional googler, fast learner and collector of memes.
@@ -44,6 +48,12 @@ function About() {
         </p>
         <h2>Contact:</h2>
         <ul>
+          <li>
+            <Contact
+              url="mailto: katerina.chrysostomou@hotmail.com"
+              name="Email"
+            />
+          </li>
           <li>
             <Contact
               url="https://www.linkedin.com/in/katerina-chrysostomou-nygren/"
@@ -63,9 +73,7 @@ function About() {
             />
           </li>
           <li>
-            <Contact 
-              url="https://www.facebook.com/kottla"  
-              name="Facebook" />
+            <Contact url="https://www.facebook.com/kottla" name="Facebook" />
           </li>
         </ul>
       </main>
