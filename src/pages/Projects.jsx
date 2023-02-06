@@ -16,7 +16,12 @@ function Projects() {
           Here I've collected some of the projects I made in school and in my
           spare time.
         </p>
-
+        {/* thb */}
+        <Project 
+        url="https://thehorizonbleeds.se"
+        name= "The Horizon Bleeds"
+        description="My dissertation from school, I made a website for the musician The Horizon Bleeds, where all his discography is collected from Discogs API, a mediaplayer powered by Bandcamp, all the links to where you can find his music and different ways to get in contact."
+        />
         {/* devmemes */}
         <Project
           url="https://dev-memes.netlify.app/"
