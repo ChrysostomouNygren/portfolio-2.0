@@ -10,6 +10,8 @@ import js from "../assets/java-script.png";
 import reactbw from "../assets/reactBW.png";
 import sass from "../assets/SASS.png";
 import ts from "../assets/ts.png";
+import flutter from "../assets/flutter.png";
+import dart from "../assets/dart.png";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -36,10 +38,10 @@ function About() {
         <Skills url={reactbw} alt="react logo" title="React.js" />
         <Skills url={git} alt="git log" title="Git" />
         <Skills url={ps} alt="adobe photoshop logo" title="Adobe photoshop" />
-        {/* SASS */}
         <Skills url={sass} alt="SASS" title="SASS" />
-        {/* TS */}
         <Skills url={ts} alt="typescript" title="Typescript" />
+        <Skills url={flutter} alt="flutter" title="Flutter" />
+        <Skills url={dart} alt="dart" title="Dart" />
 
         <p>
           Professional googler, fast learner and collector of memes.
